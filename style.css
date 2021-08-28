@@ -1,0 +1,208 @@
+:root {
+  /* Fonts */
+  --ff-logo: "Kaushan Script", cursive;
+  --ff-title: "Oswald", sans-serif;
+  --ff-text: "Be Vietnam", sans-serif;
+  /* colors */
+  --clr-white: white;
+  --clr-100: #c2c2c2;
+  --clr-300: #636363;
+  --clr-black: black;
+  --clr-accent: #aa0000;
+  /* others */
+  --unv-spacing-padding-left: 3.5rem;
+  --unv-spacing-margin-top: 6rem;
+}
+
+/* -------{00}----------
+------logo-section------
+---------------------- */
+
+#logo-container {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+/* -------{00}----------
+------hero-section------
+---------------------- */
+
+#hero-section {
+  display: flex;
+  color: var(--clr-white);
+  background: url(food-calendar-lg.png) center no-repeat;
+  background-size: cover;
+}
+
+.hero-section__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+}
+
+.hero-text {
+  width: 70%;
+  color: var(--clr-100);
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+/* ----------{00}--------------
+-------recipe-section--------
+--------------------------- */
+
+/* ----{01}----recipe-section-name-and-info------- */
+
+#recipe-section {
+  margin: 7rem 0;
+}
+
+.recipe-section-info-container {
+  margin: 2rem 0 5rem var(--unv-spacing-padding-left);
+}
+
+.recipe-section-info-title {
+  width: max-content;
+}
+
+.recipe-section-info {
+  margin-left: 2px;
+  margin-top: 0.2rem;
+  max-width: 364px;
+}
+
+/* ----{02}----recipe-name-in-title------- */
+
+.recipe-name {
+  text-align: center;
+}
+
+/* ----{03}----recipe-name-in-title------- */
+
+.recipe-discription-container {
+  display: flex;
+  margin-top: var(--unv-spacing-margin-top);
+  padding-left: var(--unv-spacing-padding-left);
+  border: 1px solid var(--clr-accent);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.recipe-discription {
+  font-size: 2rem;
+  margin: 1.8rem 3rem 1.8rem 0;
+}
+
+.discription-img-container {
+  width: 200%;
+  background-image: url(Sheet-Pan-Salmon-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* ----{04}----recipe-ingredients------- */
+
+#recipe-ingredients-and-instructions-container {
+  margin-top: var(--unv-spacing-margin-top);
+  padding-left: var(--unv-spacing-padding-left);
+}
+
+.ingredients-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-ingredient-ul {
+  width: 40%;
+  margin: 0.2rem 0 0 2px;
+}
+
+.ingredients-img {
+  width: 40%;
+  background-image: url(photo-1506368249639-73a05d6f6488.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+/* ----{05}----recipe-instraction------- */
+
+.extra-instuction-title {
+  margin-top: var(--unv-spacing-margin-top);
+}
+
+.extra-instractions-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-instractions-wrapper {
+  width: 40%;
+  align-self: center;
+  background-color: transparent;
+}
+
+.instractions-img {
+  width: 40%;
+  background-image: url(Smashed-Garlic-Potatoes_wp.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.extra-instraction {
+  margin-top: 0.2rem;
+}
+
+/* ----------{00}--------------
+-------Fotter-section--------
+--------------------------- */
+
+#footer-section {
+  color: var(--clr-white);
+  background-image: url(qbkp4mcg_fish-curry_625x300_10_February_21.png);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 var(--unv-spacing-padding-left);
+}
+
+.footer-social-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+}
+
+.fotter-logo {
+  align-self: center;
+}
+
+.footer-content {
+  color: inherit;
+  text-align: center;
+}
+
+.footer-content + .footer-content {
+  margin-bottom: 1rem;
+}
+
+.footer-social-iocn-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+}
